@@ -1,0 +1,35 @@
+/* Aboutus.css */
+
+/* iitm.css */
+
+.mobileiitm {
+    display: flex;
+    flex-direction: column; /* Changed from row-reverse */
+    justify-content: space-evenly;
+    height: auto; /* Changed from max-content */
+    padding-top: 5vh; /* Changed from 5dvh */
+    padding-bottom: 5vh; /* Changed from 5dvh */
+    align-items: center;
+    gap: 25px;
+    align-self: stretch;
+  }
+  
+  /* Rest of the styles remain the same */
+  
+    
+    .mobileparagraph {
+      color: #F2F2F2;
+      font-family: sans-serif;
+      font-size: 1.5vw;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 160.523%;
+      text-align: right;
+      width: 75%;
+    }
+  
+  .mobileimage{
+      width: 30%;
+      height: auto;
+  }
+  

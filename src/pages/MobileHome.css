@@ -1,0 +1,9 @@
+.MobileMain{
+    display: flex;
+    flex-direction: column;
+    background-color: #333333;
+    gap: 0px;
+    padding-top: 10vw;
+    padding-left: 0;
+    padding-right: 0;
+}

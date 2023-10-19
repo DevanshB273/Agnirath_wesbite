@@ -1,0 +1,58 @@
+/* footer.css */
+
+.mobilefooter {
+    background-color: #4d4d4d;
+    display: flex;
+    flex-direction: column; /* Changed from row */
+    width: 95%;
+    align-items: center;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    padding-top: 2vh; /* Changed from 2rem */
+    padding-bottom: 2vh; /* Changed from 2rem */
+    border-top: 1vw solid #ffd600;
+    gap: 10px
+  }
+  
+  /* Rest of the styles remain the same */
+  
+
+.mobilesocials{
+    display: flex;
+    flex-direction: row;
+    padding: 1.5vw;
+    gap: 0.75rem;
+
+}
+
+.mobileindividualsocial{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:5%;
+}
+
+
+.mobileindividualsocial img{
+    width: 80%;
+}
+
+.mobileorangebar{
+    width: 0.5vw;
+    align-self: stretch;
+    background-color: #FF7C00;
+}
+.mobileaddress{
+    color: #F2F2F2;
+    text-align: center;
+    font-family: Inter;
+    font-size: 4.5vw;
+    font-style: normal;
+    line-height: normal;
+}
+
+.mobilemap{
+    height: 200px;
+    width: 100%;
+    background-color: aliceblue;
+}

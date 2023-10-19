@@ -1,0 +1,68 @@
+.carheading{
+    width: 65%;
+}
+.facts{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+.leftimg img{
+    width:40%;
+}
+
+.rightimg img{
+    width:40%;
+}
+
+.leftimg{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.rightimg{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.leftimg p{
+    color: #FFF;
+    font-family: Russo One;
+    font-size: 2.5vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width:40%;
+}
+
+.rightimg p{
+    text-align: right;
+    color: #FFF;
+    font-family: Russo One;
+    font-size: 2.5vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width:40%;
+}
+
+.intro{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 2.5vw;
+    font-style: normal;
+    line-height: normal;
+    width:90%;
+    text-align: center;
+}

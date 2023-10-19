@@ -1,0 +1,41 @@
+/* competitions.css */
+
+.mobilecompetitions {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #1a1a1a;
+    padding-bottom: 2rem;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .mobileheaderimg {
+    width: 80%;
+    height: auto;
+    align-self: center;
+    margin-bottom: 1rem; /* Add spacing between header image and challenges */
+  }
+  
+  .mobilechallenges {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+  
+  .mobilechallenegescard {
+    flex: 1; /* Allow cards to grow and occupy available space */
+    max-width: 100%; /* Adjust maximum width as needed */
+    margin-bottom: 1rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center card content horizontally */
+  }
+  
+  /* Rest of the styles remain the same */
+  

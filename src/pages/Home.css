@@ -1,0 +1,9 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    background-color: #333333;
+    gap: 0px;
+    padding-top: 2%;
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
+}

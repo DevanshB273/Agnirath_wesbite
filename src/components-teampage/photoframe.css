@@ -1,0 +1,22 @@
+.frame{
+    width: 10rem;
+    height: 10rem;
+    background-color: aliceblue;
+}
+.nameofpic{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.titleofpic{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

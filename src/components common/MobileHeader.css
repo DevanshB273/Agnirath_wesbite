@@ -1,0 +1,27 @@
+.mobileheadermain {
+    display: flex;
+    width: 100%; /* Full width */
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    height: 17vw;
+    max-height: 500px;
+    position: fixed; /* Make the header fixed */
+    top: 0; /* Position it at the top of the viewport */
+    z-index: 1000; /* Ensure it's on top of other content */
+  }
+  
+  .hamburger {
+    height: 11vw;
+  }
+  
+  .logomobile {
+    height: 10vw;
+  }
+  
+  /* Add more styles or adjust as needed */
+  

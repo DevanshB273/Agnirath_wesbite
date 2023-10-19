@@ -1,0 +1,10 @@
+.carheading{
+    width: 55%;
+}
+
+
+.page{
+    background-color: #1A1A1A;
+    display: flex;
+    flex-direction: column;
+}

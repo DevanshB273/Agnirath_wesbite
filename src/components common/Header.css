@@ -1,0 +1,131 @@
+/* Header.css */
+
+/* Navbar styling */
+/* bg-body-tertiary sets the background color of the Navbar */
+.bg-body-tertiary {
+  background-color: #000000; /* You can adjust the background color */
+}
+
+/* Container styling */
+/* Container sets the max-width and centers the Navbar content */
+.container {
+  width: 95%; /* You can adjust the maximum width */
+  height: fit-content;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Navbar Brand styling */
+/* Styling for the Navbar Brand (logo) */
+.navbar-brand img {
+  max-height: 60px; /* Adjust the logo's maximum height */
+}
+
+/* Navbar Toggle Button styling */
+/* Styling for the mobile menu toggle button */
+.navbar-toggler-icon {
+  background-color: #333; /* Background color of the toggle button */
+  border: none; /* Remove button border */
+}
+
+/* Navbar Collapse styling */
+/* Styling for the collapsed Navbar menu items */
+#basic-navbar-nav {
+  margin-top: 0px; /* Adjust the top margin as needed */
+}
+
+/* Navbar Link styling */
+/* Styling for the Navbar links (Nav.Link) */
+.nav-link {
+  color: #FFFFFF; /* Link text color */
+  font-size: larger;
+  font-family: sans-serif;
+  font-weight: bolder; /* Link text font-weight */
+  margin-right: 0px; /* Adjust the right margin as needed */
+  text-decoration: none !important; /* Remove underline (important to override Bootstrap styles) */
+}
+
+/* Navbar Link Hover styling */
+/* Styling for the Navbar links (Nav.Link) on hover */
+.nav-link:hover {
+  color: #FF7C00; /* Link text color on hover */
+}
+
+/* Navbar Link Active styling */
+/* Styling for the active Navbar link (when on the current page) */
+.nav-link.active {
+  color: #FF7C00; /* Link text color for active link */
+}
+
+.me-auto {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0;
+  width: 55vw; /* Adjust width as needed */
+  background-color: #000000; /* Adjust the background color */
+  height: 100%;
+}
+
+/* Mobile Menu Button styling */
+.menu-button {
+  cursor: pointer;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: #FFFFFF; /* Adjust the button bar color */
+  margin: 3px 0;
+}
+
+/* Mobile Menu styling */
+.mobile-menu {
+  display: none;
+  flex-direction: column;
+  background-color: #1A1A1A; /* Adjust the menu background color */
+  color: #FFFFFF; /* Adjust the menu text color */
+  position: absolute;
+  top: 100%;
+  right: 0;
+  left: 0;
+  transition: transform 0.3s ease-in-out;
+}
+
+.mobile-menu.open {
+  transform: translateY(0);
+}
+
+@media screen and (max-width: 768px) {
+  .mobile-menu {
+    display: flex;
+  }
+
+  .mobile-menu.open {
+    transform: translateY(0);
+  }
+
+  .navbar-toggler-icon {
+    background-color: #333; /* Background color of the toggle button */
+    border: none; /* Remove button border */
+  }
+
+  .me-auto {
+    display: none; /* Hide the desktop navigation links */
+  }
+
+  .menu-button {
+    display: block; /* Show the mobile menu button */
+  }
+}
