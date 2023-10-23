@@ -13,19 +13,19 @@ const MobileFooter = () => {
     <div className='mobilefooter'>
         <div className='mobilesocials'>
             <div className='mobileindividualsocial'>
-                <img src={ig} />
+                <a href='https://www.instagram.com/Agnirath.IITM'><img src={ig} /></a>
             </div>
             <div className='mobileindividualsocial'>
-                 <img src={twitter} />
+                <a href='https://www.twitter.com/TeamAgniRath'><img src={twitter} /></a>
             </div>
             <div className='mobileindividualsocial'>
-                <img src={email} />
+                <a href='agnirath@smail.iitm.ac.in'><img src={email} /></a>
             </div>
             <div className='mobileindividualsocial'>
-                <img src={linkedin} />
+                <a href='https://www.linkedin.com/company/team-4gnirath/mycompany/'><img src={linkedin} /></a>
             </div>
             <div className='mobileindividualsocial'>
-                 <img src={flicker} />
+                <a href='https://www.flickr.com/photos/196730232@N07'><img src={flicker} /></a>
             </div>
         </div>
         <div className='mobileorangebar' />

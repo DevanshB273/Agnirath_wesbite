@@ -28,12 +28,12 @@ function Sponsors() {
 
   return (
     <div className='main'>
+      <Navbar page='Sponsors' />
       <div className='sponshead' style={{ backgroundImage: `url(${intialbg})`, backgroundSize: 'cover'}}>
         <h1>Sponsors</h1>
         <div className='orangebartop' />
         <p> We would like to thank, our sponsor for making it possible to participate in the World Solar Challenge.Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
       </div>
-      <Navbar page='Sponsors' />
       <div className='sponssection'>
         <div className='leftspons' style={{ backgroundImage: `url(${bgReliance})`, backgroundSize: 'cover' }}>
             <img src={logoReliance} alt="Reliance Logo" />
@@ -68,7 +68,7 @@ function Sponsors() {
         <div className='leftspons' style={{ backgroundImage: `url(${bgValeo})`, backgroundSize: 'cover' }}>
           <img src={logoValeo} alt="Valeo Logo" />
           <div className='horzibar' style={{ backgroundColor: '#76C5F0'}}/>
-            <p style={{ color: '#FFF' }}>Reliance New Energy, with its commitment to renewable energy and sustainable practices, has been the wind beneath our wings throughout this amazing journey till date.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+            <p style={{ color: '#FFF' }}>Valeo is an automotive supplier and partner to automakers worldwide. As a tech company, we design innovative solutions for smart mobility.</p>
         </div>
         <div className='rightspons' style={{ backgroundImage: `url(${bgBrakesindia})`, backgroundSize: 'cover' }}>
           <img src={logoBrakesindia} alt="Brakes India Logo" />

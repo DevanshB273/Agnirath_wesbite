@@ -51,7 +51,7 @@ function MobileSponsors() {
         </div>
         <div className='mobilespons' style={{ backgroundColor: '#1A1A1A'}}>
           <img src={logoValeo} alt="Valeo Logo" />
-            <p style={{ color: '#FFF' }}>Reliance New Energy, with its commitment to renewable energy and sustainable practices, has been the wind beneath our wings throughout this amazing journey till date.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+            <p style={{ color: '#FFF' }}>Valeo is an automotive supplier and partner to automakers worldwide. As a tech company, we design innovative solutions for smart mobility.</p>
         </div>
         <div className='mobilespons' style={{ backgroundColor: '#C88F07'}}>
           <img src={logoBrakesindia} alt="Brakes India Logo" />

@@ -1,7 +1,7 @@
 import React from 'react'
 import MobileNavbar from '../components common/MobileHeader'
 import './MobileTeam.css'
-import teamheader from '../images/teamphotointro.png'
+import teamheader from '../images/teamphotointro.jpg'
 import MobileFooter from '../components common/Mobilefooter'
 
 function MobileTeam() {

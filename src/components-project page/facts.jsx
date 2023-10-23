@@ -18,13 +18,12 @@ function Facts() {
             </div>
             <div className='rightimg'>
                 <img src={right} />
-                <p>-Monocoque carbon fibre chassis<br />
-                -Axial flux motor with 98% efficiency</p>
+                <p>-Designed our own solar panels with 30% more efficiency than commercial solar panels</p>
             </div>
             <div className='leftimg'>
                 <img src={top} />
-                <p>-Monocoque carbon fibre chassis<br />
-                -Axial flux motor with 98% efficiency</p>
+                <p>-Unique 3 wheel design for more stability<br />
+                -Custom built battery pack</p>
             </div>
         </div>
     );
