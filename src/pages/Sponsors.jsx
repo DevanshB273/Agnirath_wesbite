@@ -32,7 +32,7 @@ function Sponsors() {
       <div className='sponshead' style={{ backgroundImage: `url(${intialbg})`, backgroundSize: 'cover'}}>
         <h1>Sponsors</h1>
         <div className='orangebartop' />
-        <p> We would like to thank, our sponsor for making it possible to participate in the World Solar Challenge.Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+        <p> We would like to thank, our sponsor for making it possible to participate in the World Solar Challenge.</p>
       </div>
       <div className='sponssection'>
         <div className='leftspons' style={{ backgroundImage: `url(${bgReliance})`, backgroundSize: 'cover' }}>

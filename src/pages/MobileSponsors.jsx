@@ -21,7 +21,7 @@ function MobileSponsors() {
       <div className='mobilesponshead' style={{ backgroundImage: `url(${intialbg})`, backgroundSize: 'cover'}}>
         <h1>Sponsors</h1>
         <div className='mobileorangebartop' />
-        <p> We would like to thank, our sponsor for making it possible to participate in the World Solar Challenge.Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+        <p> We would like to thank, our sponsor for making it possible to participate in the World Solar Challenge.</p>
       </div>
       <MobileNavbar/>
       <div className='mobilesponssection'>
