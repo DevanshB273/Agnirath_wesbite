@@ -3,7 +3,6 @@ import './footer.css' ;
 import ig from '../images/instagram.png'
 import twitter from '../images/twitter.png'
 import email from '../images/email.png'
-import flicker from '../images/flicker.png'
 import linkedin from '../images/linkedin.png'
 
 const Footer = () => {
@@ -24,9 +23,6 @@ const Footer = () => {
             <div className='individualsocial'>
                 <a href='https://www.linkedin.com/company/team-4gnirath/mycompany/'><img src={linkedin} /><p>Linkedin</p></a>
             </div>
-            <div className='individualsocial'>
-                 <a href='https://www.flickr.com/photos/196730232@N07'><img src={flicker} /><p>Flicker</p></a>
-            </div>
         </div>
         <div className='orangebar' />
         <div>
@@ -37,6 +33,8 @@ const Footer = () => {
                 agnirath@smail.iitm.ac.in<br />
                 <br /><br />
                 Contact:<br />
+                Akash Thakur<br />
+                +91 93724 78121<br/><br/>
                 Damyanti Jain<br />
                 +91 93241 12961<br />
             </p>
