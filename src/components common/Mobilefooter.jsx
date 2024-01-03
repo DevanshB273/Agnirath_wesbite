@@ -24,9 +24,6 @@ const MobileFooter = () => {
             <div className='mobileindividualsocial'>
                 <a href='https://www.linkedin.com/company/team-4gnirath/mycompany/'><img src={linkedin} /></a>
             </div>
-            <div className='mobileindividualsocial'>
-                <a href='https://www.flickr.com/photos/196730232@N07'><img src={flicker} /></a>
-            </div>
         </div>
         <div className='mobileorangebar' />
         <div>
@@ -37,6 +34,8 @@ const MobileFooter = () => {
                 agnirath@smail.iitm.ac.in<br />
                 <br />
                 Contact:<br />
+                Akash Thakur<br />
+                +91 93724 78121<br/><br/>
                 Damyanti Jain<br />
                 +91 93241 12961<br />
             </p>
